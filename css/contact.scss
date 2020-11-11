@@ -1,0 +1,134 @@
+$primary-color: #dd3f3f;
+$secondary-color: #13ADDE;
+
+div {
+    margin: auto;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav  {
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    padding-right: 5px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 0px $primary-color;
+    a{
+        font-family: 'Roboto', sans-serif;
+        white-space: nowrap;
+        font-size: 1em;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.bottom-nav  {
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 8px;
+    padding-top: 18px;
+    padding-right: 7px;
+    border-radius: 12px;
+    a{
+        font-family: 'Roboto', sans-serif;
+        white-space: nowrap;
+        font-size: 1em;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@mixin nav-base {
+    padding: 5px;
+    display: flex;
+    border: solid black 1px;
+    box-shadow: 2px 2px 0px #000000;
+    border-radius: 12px;
+}
+
+.nav-option {
+    @include nav-base();
+    
+}
+
+.nav-option-selected {
+    @include nav-base();
+    box-shadow: 2px 2px 0px $secondary-color;
+}
+
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    width: 95%;
+    margin-bottom: 10px;
+    border-radius: 6px; 
+}
+
+@mixin content {
+    font-family: 'Red Hat Display', sans-serif;
+    max-width: 100%;
+    width: 100%;
+    padding-top: 3px;
+    border-bottom: solid black 1px;
+    line-height: 80%;
+    font-size: 28px;
+    h1 {
+        font-weight: lighter;
+        font-size: 9.5vw;
+        text-align: center;
+    }
+    h3 {
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 5vw;
+        font-weight: lighter;
+        text-align: center;
+    }
+}
+
+.content-div {
+    @include content();
+}
+
+.form-div {
+    @include content();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    width: 95%;
+}
+.form-element {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+input  {
+    width: 89%;
+    height: 20px;
+
+}
