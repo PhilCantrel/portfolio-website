@@ -126,7 +126,7 @@ nav a {
   text-align: center;
 }
 
-.content-div-bottom {
+.content-div-post {
   font-family: 'Red Hat Display', sans-serif;
   max-width: 100%;
   width: 100%;
@@ -134,94 +134,7 @@ nav a {
   border-bottom: solid black 1px;
   line-height: 80%;
   font-size: 18px;
-  margin-top: 25px;
-  border-top: solid black 1px;
-}
-
-.content-div-bottom h1 {
-  font-weight: lighter;
-  font-size: 9.5vw;
-  text-align: center;
-}
-
-.content-div-bottom h3 {
-  font-family: 'Red Hat Display', sans-serif;
-  font-size: 5vw;
-  font-weight: lighter;
-  text-align: center;
-}
-
-.credit {
-  margin-top: 15px;
-  font-family: 'Red Hat Display', sans-serif;
-}
-
-.social-div {
-  font-family: 'Red Hat Display', sans-serif;
-  max-width: 100%;
-  width: 100%;
-  padding-top: 3px;
-  border-bottom: solid black 1px;
-  line-height: 80%;
-  font-size: 18px;
-  border-radius: 10px;
-  background-color: #f9f9f9;
-  -webkit-box-shadow: 0px 0px 8px #7f7f7f;
-          box-shadow: 0px 0px 8px #7f7f7f;
-  border-bottom: none;
-  margin-top: 20px;
-}
-
-.social-div h1 {
-  font-weight: lighter;
-  font-size: 9.5vw;
-  text-align: center;
-}
-
-.social-div h3 {
-  font-family: 'Red Hat Display', sans-serif;
-  font-size: 5vw;
-  font-weight: lighter;
-  text-align: center;
-}
-
-.social-div-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 20px;
-  padding-bottom: 20px;
-  max-width: 100%;
-}
-
-.social-div-sub {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 100%;
-  margin: 14px;
-  padding-bottom: 15px;
-  padding-top: 0px;
-}
-
-.social-div-sub img {
-  width: 24%;
-}
-
-.form-div {
-  font-family: 'Red Hat Display', sans-serif;
-  max-width: 100%;
-  width: 100%;
-  padding-top: 3px;
-  border-bottom: solid black 1px;
-  line-height: 80%;
-  font-size: 18px;
-  margin-top: 20px;
+  padding-top: 20px;
   padding-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -233,81 +146,45 @@ nav a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-radius: 10px;
-  background-color: #f9f9f9;
-  -webkit-box-shadow: 0px 0px 8px #7f7f7f;
-          box-shadow: 0px 0px 8px #7f7f7f;
-  border-bottom: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.form-div h1 {
+.content-div-post h1 {
   font-weight: lighter;
   font-size: 9.5vw;
   text-align: center;
 }
 
-.form-div h3 {
+.content-div-post h3 {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 5vw;
   font-weight: lighter;
   text-align: center;
 }
 
-.form-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-top: 18px;
+.content-div-post img {
   width: 95%;
 }
 
-.form-element {
-  width: 100%;
-  padding-top: 9px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.content-div-post p {
+  font-size: 12px;
+  text-align: justify;
+  margin: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-input {
-  width: 88%;
-  padding: 8px;
-  border: solid #7f7f7f 1.5px;
-  border-radius: 5px;
+.content-div-post h4 {
+  margin: 0px;
+  padding: 15px;
   font-family: 'Red Hat Display', sans-serif;
+  font-size: 5vw;
+  font-weight: bold;
 }
 
-input:focus {
-  border: solid #13ADDE 1.5px;
-  outline: none;
+.content-div-post a {
+  text-decoration: none;
 }
-
-textarea {
-  width: 88%;
-  height: 100px;
-  padding: 8px;
-  border: solid #7f7f7f 1.5px;
-  border-radius: 5px;
-  font-family: 'Red Hat Display', sans-serif;
-  resize: none;
-}
-
-textarea:focus {
-  border: solid #13ADDE 1.5px;
-  outline: none;
-}
-
-input[type=submit] {
-  width: 90%;
-  font-size: 20px;
-  margin-top: 10px;
-  padding-bottom: 10px;
-}
-/*# sourceMappingURL=contact.css.map */
+/*# sourceMappingURL=blog.css.map */

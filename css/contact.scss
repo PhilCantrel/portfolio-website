@@ -91,7 +91,7 @@ nav  {
     padding-top: 3px;
     border-bottom: solid black 1px;
     line-height: 80%;
-    font-size: 20px;
+    font-size: 18px;
     h1 {
         font-weight: lighter;
         font-size: 9.5vw;
@@ -107,7 +107,17 @@ nav  {
 
 .content-div {
     @include content();
-    padding-bottom: 0px;
+}
+
+.content-div-bottom {
+    @include content();
+    margin-top: 25px;
+    border-top: solid black 1px;
+}
+
+.credit {
+    margin-top: 15px;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .social-div {
@@ -118,10 +128,23 @@ nav  {
     border-bottom: none;
     margin-top: 20px;
 }
-.social-div-sub {
-    border: solid black 1px;
+.social-div-title{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding-bottom: 20px;
     max-width: 100%;
-    margin: 10px;
+}
+.social-div-sub {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 14px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    img {
+        width: 24%;  
+    }
 }
 
 .form-div {
@@ -142,9 +165,10 @@ nav  {
     padding-top: 18px;
     width: 95%;
 }
+
 .form-element {
     width: 100%;
-    padding-top: 12px;
+    padding-top: 9px;
     display: flex;
     justify-content: center;
 }

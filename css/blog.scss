@@ -1,5 +1,6 @@
 $primary-color: #dd3f3f;
 $secondary-color: #13ADDE;
+$border-color: #7f7f7f;
 
 div {
     margin: auto;
@@ -41,7 +42,7 @@ nav  {
     display: flex;
     justify-content: space-around;
     padding-bottom: 8px;
-    padding-top: 20px;
+    padding-top: 18px;
     padding-right: 7px;
     border-radius: 12px;
     a{
@@ -80,17 +81,17 @@ nav  {
     padding-bottom: 10px;
     width: 95%;
     margin-bottom: 10px;
-    border-radius: 6px;      
+    border-radius: 6px; 
 }
 
-
-.content-div {
+@mixin content {
     font-family: 'Red Hat Display', sans-serif;
     max-width: 100%;
     width: 100%;
     padding-top: 3px;
     border-bottom: solid black 1px;
     line-height: 80%;
+    font-size: 18px;
     h1 {
         font-weight: lighter;
         font-size: 9.5vw;
@@ -104,43 +105,36 @@ nav  {
     }
 }
 
-.content-div-card {
-    width: 100%;
-    padding-bottom: 10px;
-    border-bottom: solid black 1px;
+.content-div {
+    @include content();
 }
 
-.content-card {
+.content-div-post {
+    @include content();
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f9f9f9;
-    box-shadow: 0px 0px 8px #7f7f7f;
-    width: 280px;
-    height: 340px;
-    border-radius: 35px;
-    margin-top: 25px;
     img {
-        margin-top: 30px;
-        box-shadow: 0px 0px 8px #666666;
-        border-radius: 50%;
-        width: 58%;
+        width: 95%;
     }
-}
-.card-text {
-    width: 75%;
+    p {
+        font-size: 12px;
+        text-align: justify;
+        margin: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    h4 {
+    margin: 0px;
+    padding: 15px;
     font-family: 'Red Hat Display', sans-serif;
-    text-align: center;
-    line-height: 16px;
-    margin-bottom: 28px;
-    h1 {
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 20px;
+    font-size: 5vw;
+    font-weight: bold;
     }
-    h2 {
-        font-size: 13px;
-        font-weight: normal;
+    a {
+        text-decoration: none;
     }
 }
