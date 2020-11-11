@@ -110,7 +110,7 @@ nav a {
   padding-top: 3px;
   border-bottom: solid black 1px;
   line-height: 80%;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .content-div h1 {
@@ -133,7 +133,9 @@ nav a {
   padding-top: 3px;
   border-bottom: solid black 1px;
   line-height: 80%;
-  font-size: 28px;
+  font-size: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,6 +146,11 @@ nav a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  -webkit-box-shadow: 0px 0px 8px #7f7f7f;
+          box-shadow: 0px 0px 8px #7f7f7f;
+  border-bottom: none;
 }
 
 .form-div h1 {
@@ -167,13 +174,13 @@ nav a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 25px;
+  padding-top: 18px;
   width: 95%;
 }
 
 .form-element {
   width: 100%;
-  padding-top: 10px;
+  padding-top: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -183,7 +190,14 @@ nav a {
 }
 
 input {
-  width: 89%;
-  height: 20px;
+  width: 88%;
+  padding: 8px;
+  border: solid #7f7f7f 1.5px;
+  border-radius: 4px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+textarea {
+  width: 90%;
 }
 /*# sourceMappingURL=contact.css.map */
