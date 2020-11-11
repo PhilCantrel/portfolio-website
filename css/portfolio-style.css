@@ -116,6 +116,7 @@ nav a {
   font-weight: lighter;
   font-size: 9.5vw;
   text-align: center;
+  padding-bottom: 1.5px;
 }
 
 .content-div h3 {
