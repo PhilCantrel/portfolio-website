@@ -198,6 +198,11 @@ input {
 }
 
 textarea {
-  width: 90%;
+  width: 88%;
+  height: 100px;
+  padding: 8px;
+  border: solid #7f7f7f 1.5px;
+  border-radius: 4px;
+  font-family: 'Red Hat Display', sans-serif;
 }
 /*# sourceMappingURL=contact.css.map */
