@@ -107,6 +107,21 @@ nav  {
 
 .content-div {
     @include content();
+    padding-bottom: 0px;
+}
+
+.social-div {
+    @include content();
+    border-radius: 10px;
+    background-color:  #f9f9f9;
+    box-shadow: 0px 0px 8px #7f7f7f;
+    border-bottom: none;
+    margin-top: 20px;
+}
+.social-div-sub {
+    border: solid black 1px;
+    max-width: 100%;
+    margin: 10px;
 }
 
 .form-div {
@@ -138,8 +153,12 @@ input  {
     width: 88%;
     padding: 8px;
     border: solid $border-color 1.5px;
-    border-radius: 4px;
+    border-radius: 5px;
     font-family: 'Red Hat Display', sans-serif;
+    &:focus {
+        border: solid $secondary-color 1.5px;
+        outline: none;
+    }
 }
 
 textarea {
@@ -147,6 +166,17 @@ textarea {
     height: 100px;
     padding: 8px;
     border: solid $border-color 1.5px;
-    border-radius: 4px;
+    border-radius: 5px;
     font-family: 'Red Hat Display', sans-serif;
+    resize: none;
+    &:focus {
+        border: solid $secondary-color 1.5px;
+        outline: none;
+    }
+}
+input[type=submit] {
+    width: 90%;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
