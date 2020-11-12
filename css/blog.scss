@@ -111,8 +111,8 @@ nav  {
 
 .content-div-post {
     @include content();
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;

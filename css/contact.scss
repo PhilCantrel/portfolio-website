@@ -105,6 +105,10 @@ nav  {
     }
 }
 
+.content-div-large {
+    max-width: 100%;
+}
+
 .content-div {
     @include content();
 }
@@ -127,6 +131,7 @@ nav  {
     box-shadow: 0px 0px 8px #7f7f7f;
     border-bottom: none;
     margin-top: 20px;
+    padding-bottom: 8px;
 }
 .social-div-title{
     display: flex;
@@ -173,6 +178,37 @@ nav  {
     justify-content: center;
 }
 
+// taken from https://markheath.net/post/customize-radio-button-css
+
+.selector {
+    padding-top: 8px;
+  }
+  
+  .selector input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+  }
+  
+.selector label {
+    display: inline-block;
+    padding: 8px;
+    border: solid $border-color 1.5px;
+    border-radius: 5px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: #efefef;
+}
+  
+  
+
+  
+.selector input[type="radio"]:checked + label {
+    
+    border-color: $secondary-color;
+}
+  
+
 input  {
     width: 88%;
     padding: 8px;
@@ -203,4 +239,63 @@ input[type=submit] {
     font-size: 20px;
     margin-top: 10px;
     padding-bottom: 10px;
+}
+
+@media screen and (min-width: 600px){
+
+    header {
+        padding-left: 1.9%;
+        justify-content: flex-start;
+    }
+    nav {
+        width: 350px;
+    }
+    .main-div {
+        border: solid red 1px;
+    }
+    .content-div {
+        max-width: 100%;
+        border: dashed blue 1px;
+        
+
+        h1 {
+            font-size: 4vw;
+        }
+    }
+    .content-div-large {
+        border: solid black 1px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        max-width: 100%;
+    }
+
+    .social-div {
+        
+        margin-left: 30px;
+        width: 200px;
+        img {
+            width: 80%
+        }
+    }
+    .social-div-sub {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-div {
+        width: 900px;
+        height: 750px;
+        justify-content: flex-start;
+    }
+
+    textarea {
+        height: 200px;
+    }
+
+    input {
+        width: 50%;
+    }
+
 }
