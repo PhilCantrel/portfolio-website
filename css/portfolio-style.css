@@ -181,4 +181,52 @@ nav a {
   font-size: 13px;
   font-weight: normal;
 }
+
+@media screen and (min-width: 600px) {
+  header {
+    padding-left: 1.9%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  nav {
+    width: 350px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .content-div {
+    max-width: 100%;
+    border-top: solid black 1px;
+    margin-top: 10px;
+  }
+  .content-div h1 {
+    font-size: 4vw;
+  }
+  .content-div h3 {
+    font-size: 1.5vw;
+  }
+  .content-div-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 670px;
+  }
+  .content-card {
+    margin-bottom: 20px;
+    -webkit-transition: .8s;
+    transition: .8s;
+  }
+  .content-card.content-card:hover {
+    -webkit-transform: scale(1.09, 1.09);
+            transform: scale(1.09, 1.09);
+    -webkit-box-shadow: 1px 1px 20px #666666;
+            box-shadow: 1px 1px 20px #666666;
+  }
+}
 /*# sourceMappingURL=portfolio-style.css.map */

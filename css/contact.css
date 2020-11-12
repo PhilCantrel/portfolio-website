@@ -377,8 +377,8 @@ input[type=submit] {
     font-size: 1.5vw;
   }
   .content-div-large {
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

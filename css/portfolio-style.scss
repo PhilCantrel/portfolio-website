@@ -111,6 +111,9 @@ nav  {
     border-bottom: solid black 1px;
 }
 
+
+
+
 .content-card {
     display: flex;
     flex-direction: column;
@@ -144,4 +147,47 @@ nav  {
         font-size: 13px;
         font-weight: normal;
     }
+}
+
+@media screen and (min-width: 600px){
+
+    header {
+        padding-left: 1.9%;
+        justify-content: flex-start;
+    }
+    nav {
+        
+        width: 350px;
+        box-shadow: none;
+    }
+
+    .content-div {
+        max-width: 100%;
+        border-top: solid black 1px;
+        margin-top: 10px;
+        h1 {
+            font-size: 4vw;
+        }
+        h3 {
+            font-size: 1.5vw;
+        }
+    }
+
+    .content-div-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 670px;
+    }
+    .content-card {
+        margin-bottom: 20px;
+        transition: .8s;
+        
+        &.content-card:hover {
+            transform:scale(1.09, 1.09);
+            box-shadow: 1px 1px 20px #666666;
+        }
+    }  
+
+
 }
