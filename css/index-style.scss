@@ -160,6 +160,42 @@ nav  {
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
+
+    header {
+        padding-left: 1.9%;
+        justify-content: flex-start;
+    }
+    nav {
+        
+        width: 350px;
+        box-shadow: none;
+    }
+    
+
+    .content-div {
+        max-width: 50%;
+        width: 100%;
+        margin-top: 10px;
+        h1 {
+            font-size: 4vw;
+            
+        }
+        h2 {
+            font-size: 2vw;
+            
+        }
+        h3 {
+            font-size: 1.5vw;
+        }
+    }
+
+    .text-div{
+        p {
+            text-align: center;
+            line-height: 1.3vw;
+            font-size: 1vw;
+        }
+    }
 
 }
