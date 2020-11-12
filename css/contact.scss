@@ -139,6 +139,7 @@ nav  {
     margin: 20px;
     padding-bottom: 20px;
     max-width: 100%;
+    white-space: nowrap;
 }
 .social-div-sub {
     display: flex;
@@ -150,6 +151,14 @@ nav  {
     img {
         width: 24%;  
     }
+}
+.social-div-div {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 14px;
+    padding-bottom: 15px;
+    padding-top: 0px;
 }
 
 .form-div {
@@ -200,9 +209,6 @@ nav  {
     background-color: #efefef;
 }
   
-  
-
-  
 .selector input[type="radio"]:checked + label {
     
     border-color: $secondary-color;
@@ -248,54 +254,109 @@ input[type=submit] {
         justify-content: flex-start;
     }
     nav {
+        
         width: 350px;
+        box-shadow: none;
     }
-    .main-div {
-        border: solid red 1px;
-    }
+
     .content-div {
         max-width: 100%;
-        border: dashed blue 1px;
-        
-
+        border-top: solid black 1px;
+        margin-top: 10px;
         h1 {
             font-size: 4vw;
         }
     }
+    .content-div-bottom {
+        h3 {
+            font-size: 1.5vw;
+        }
+    }
+
     .content-div-large {
-        border: solid black 1px;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
         display: flex;
         align-items: center;
         flex-direction: row;
+        width: 90%;
         max-width: 100%;
     }
 
     .social-div {
-        
+        max-width: 100%;
         margin-left: 30px;
+        padding-bottom: 20px;
         width: 200px;
+        height: 700px;
         img {
-            width: 80%
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 35px;
+            margin-top: 22px;
+            max-width: 100%;
         }
     }
+    
+    .social-div-div {
+        max-width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
     .social-div-sub {
         flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
         margin-left: auto;
         margin-right: auto;
     }
 
     .form-div {
-        width: 900px;
-        height: 750px;
+        width: 75%;
+        height: 700px;
         justify-content: flex-start;
     }
 
     textarea {
-        height: 200px;
+        height: 150px;
+        width: 50%;
+        max-width: 100%;
     }
+
+
 
     input {
         width: 50%;
     }
 
+    input[type="submit"] {
+        width: 30%;
+    }
+
+    .form-element {
+        width: 700px;
+        justify-content: flex-start;
+    }
+
+    .form-title{
+        width: 700px;
+    }
+    .selector {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    form {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    textarea {
+        width: 60%;
+    }
 }
