@@ -1,0 +1,240 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+div {
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav {
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 8px;
+  padding-top: 5px;
+  padding-right: 5px;
+  border-radius: 12px;
+  -webkit-box-shadow: 2px 2px 0px #dd3f3f;
+          box-shadow: 2px 2px 0px #dd3f3f;
+}
+
+nav a {
+  font-family: 'Roboto', sans-serif;
+  white-space: nowrap;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-nav {
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 8px;
+  padding-top: 18px;
+  padding-right: 7px;
+  border-radius: 12px;
+}
+
+.bottom-nav a {
+  font-family: 'Roboto', sans-serif;
+  white-space: nowrap;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-option {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid black 1px;
+  -webkit-box-shadow: 2px 2px 0px #000000;
+          box-shadow: 2px 2px 0px #000000;
+  border-radius: 12px;
+}
+
+.nav-option-selected {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid black 1px;
+  -webkit-box-shadow: 2px 2px 0px #000000;
+          box-shadow: 2px 2px 0px #000000;
+  border-radius: 12px;
+  -webkit-box-shadow: 2px 2px 0px #13ADDE;
+          box-shadow: 2px 2px 0px #13ADDE;
+}
+
+.main-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  width: 95%;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.content-div {
+  font-family: 'Red Hat Display', sans-serif;
+  max-width: 100%;
+  width: 100%;
+  padding-top: 3px;
+  border-bottom: solid black 1px;
+  line-height: 80%;
+  font-size: 18px;
+}
+
+.content-div h1 {
+  font-weight: lighter;
+  font-size: 9.5vw;
+  text-align: center;
+}
+
+.content-div h3 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 5vw;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.content-div-post {
+  font-family: 'Red Hat Display', sans-serif;
+  max-width: 100%;
+  width: 100%;
+  padding-top: 3px;
+  border-bottom: solid black 1px;
+  line-height: 80%;
+  font-size: 18px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-div-post h1 {
+  font-weight: lighter;
+  font-size: 9.5vw;
+  text-align: center;
+}
+
+.content-div-post h3 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 5vw;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.content-div-post img {
+  width: 95%;
+}
+
+.content-div-post p {
+  font-size: 12px;
+  text-align: justify;
+  margin: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.content-div-post h4 {
+  margin: 0px;
+  padding: 15px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+.content-div-post a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    margin-left: 1.9%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  nav {
+    width: 350px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .content-div {
+    max-width: 100%;
+    border-top: solid black 1px;
+    margin-top: 10px;
+  }
+  .content-div h1 {
+    font-size: 4vw;
+  }
+  .content-div h3 {
+    font-size: 1.5vw;
+  }
+  .content-div-post {
+    max-height: 100%;
+    max-width: 50%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border-bottom: none;
+  }
+  .content-div-post p {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+    margin: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .content-div-post h4 {
+    font-size: 2.5vw;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+/*# sourceMappingURL=blogpost.css.map */
