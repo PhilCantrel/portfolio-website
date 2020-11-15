@@ -1,6 +1,11 @@
 $primary-color: #dd3f3f;
 $secondary-color: #13ADDE;
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 div {
     margin: auto;
     

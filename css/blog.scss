@@ -2,6 +2,11 @@ $primary-color: #dd3f3f;
 $secondary-color: #13ADDE;
 $border-color: #7f7f7f;
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 div {
     margin: auto;
     
@@ -137,4 +142,100 @@ nav  {
     a {
         text-decoration: none;
     }
+}
+
+.content-div-post-last {
+    @include content();
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 95%;
+    }
+    p {
+        font-size: 12px;
+        text-align: justify;
+        margin: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    h4 {
+    margin: 0px;
+    padding: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+
+
+@media screen and (min-width: 600px){
+
+    header {
+        margin-left: 1.9%;
+        justify-content: flex-start;
+    }
+    nav {
+        
+        width: 350px;
+        box-shadow: none;
+    }
+
+    .content-div {
+        max-width: 100%;
+        border-top: solid black 1px;
+        margin-top: 10px;
+        h1 {
+            font-size: 4vw;
+        }
+        h3 {
+        font-size: 1.5vw;
+        }
+    }
+    .content-div-post {
+        max-height: 100%;
+        max-width: 50%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        p {
+            font-size: 15px;
+            text-align: justify;
+            margin: 0px;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        h4 {
+        font-size: 2.5vw;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        }
+    }
+
+    .content-div-post-last {
+        max-height: 100%;
+        max-width: 50%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        border-bottom: none;
+        p {
+            font-size: 15px;
+            text-align: justify;
+            margin: 0px;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        h4 {
+        font-size: 2.5vw;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        }
+    }
+
 }

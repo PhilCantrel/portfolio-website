@@ -1,6 +1,11 @@
 $primary-color: #dd3f3f;
 $secondary-color: #13ADDE;
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 div {
     margin: auto;
     
@@ -178,16 +183,15 @@ nav  {
         flex-direction: row;
         flex-wrap: wrap;
         width: 670px;
+        border-bottom: none;
     }
     .content-card {
         margin-bottom: 20px;
-        transition: .8s;
-        
+        transition: .8s;        
         &.content-card:hover {
             transform:scale(1.09, 1.09);
             box-shadow: 1px 1px 20px #666666;
-        }
+        }        
     }  
-
 
 }

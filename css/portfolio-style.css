@@ -1,3 +1,8 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 div {
   margin: auto;
 }
@@ -216,6 +221,7 @@ nav a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 670px;
+    border-bottom: none;
   }
   .content-card {
     margin-bottom: 20px;

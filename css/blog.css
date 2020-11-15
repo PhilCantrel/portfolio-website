@@ -1,3 +1,8 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 div {
   margin: auto;
 }
@@ -186,5 +191,129 @@ nav a {
 
 .content-div-post a {
   text-decoration: none;
+}
+
+.content-div-post-last {
+  font-family: 'Red Hat Display', sans-serif;
+  max-width: 100%;
+  width: 100%;
+  padding-top: 3px;
+  border-bottom: solid black 1px;
+  line-height: 80%;
+  font-size: 18px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-div-post-last h1 {
+  font-weight: lighter;
+  font-size: 9.5vw;
+  text-align: center;
+}
+
+.content-div-post-last h3 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 5vw;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.content-div-post-last img {
+  width: 95%;
+}
+
+.content-div-post-last p {
+  font-size: 12px;
+  text-align: justify;
+  margin: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.content-div-post-last h4 {
+  margin: 0px;
+  padding: 15px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+.content-div-post-last a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    margin-left: 1.9%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  nav {
+    width: 350px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .content-div {
+    max-width: 100%;
+    border-top: solid black 1px;
+    margin-top: 10px;
+  }
+  .content-div h1 {
+    font-size: 4vw;
+  }
+  .content-div h3 {
+    font-size: 1.5vw;
+  }
+  .content-div-post {
+    max-height: 100%;
+    max-width: 50%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+  }
+  .content-div-post p {
+    font-size: 15px;
+    text-align: justify;
+    margin: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .content-div-post h4 {
+    font-size: 2.5vw;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .content-div-post-last {
+    max-height: 100%;
+    max-width: 50%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border-bottom: none;
+  }
+  .content-div-post-last p {
+    font-size: 15px;
+    text-align: justify;
+    margin: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .content-div-post-last h4 {
+    font-size: 2.5vw;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
 }
 /*# sourceMappingURL=blog.css.map */

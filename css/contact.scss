@@ -2,6 +2,11 @@ $primary-color: #dd3f3f;
 $secondary-color: #13ADDE;
 $border-color: #7f7f7f;
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 div {
     margin: auto;
     
