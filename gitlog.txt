@@ -1,0 +1,89 @@
+commit 0e41a815937e84751afc68cf1e8e02b542f07a4e
+Author: philthehuman <philippec94@gmail.com>
+Date:   Sun Nov 15 19:04:24 2020 +1000
+
+    blogposts completed
+
+commit 9d579e1b5a62d3890c38fd0134a45380d8bee1d8
+Author: philthehuman <philippec94@gmail.com>
+Date:   Sun Nov 15 18:33:16 2020 +1000
+
+    blog desktop formatting completed
+
+commit 9d6a82dc357d0fc32cdba1a95a7bc37af18e6557
+Author: philthehuman <philippec94@gmail.com>
+Date:   Fri Nov 13 09:47:17 2020 +1000
+
+    added responsive element to homepage
+
+commit a1e16e8cfd6be066c81f962780e10e2d11a37fe5
+Author: philthehuman <philippec94@gmail.com>
+Date:   Thu Nov 12 17:06:27 2020 +1000
+
+    portfolio page responsive, animations added
+
+commit d50c39db389a76e5c51d4f56bb54f5cb61f97ff5
+Author: philthehuman <philippec94@gmail.com>
+Date:   Thu Nov 12 15:39:01 2020 +1000
+
+    contact page now responsive
+
+commit f93816a3818c15b80db041fb6d07936dafb6a0bb
+Author: philthehuman <philippec94@gmail.com>
+Date:   Thu Nov 12 13:31:06 2020 +1000
+
+    final touches on mobile view, first reactive features added
+
+commit 35c1279a43cd5b933769dd6e19b7aa09d55c284b
+Author: philthehuman <philippec94@gmail.com>
+Date:   Thu Nov 12 06:15:31 2020 +1000
+
+    minor changes mobile version
+
+commit 3c6b36cc2a12f4aafef4a52ca247a7141318feb9
+Author: philthehuman <philippec94@gmail.com>
+Date:   Thu Nov 12 05:57:37 2020 +1000
+
+    first mobile only version completed
+
+commit df46854a0e0c1848553c14cffb211ddba348eb25
+Author: philthehuman <philippec94@gmail.com>
+Date:   Thu Nov 12 02:16:02 2020 +1000
+
+    contact form complete
+
+commit f24f65181a62f885a354ccefb83ac221bfba60be
+Author: philthehuman <philippec94@gmail.com>
+Date:   Thu Nov 12 01:42:15 2020 +1000
+
+    small contact form update
+
+commit 8074b2a30f252da82730efefc03f5867f1f0f577
+Author: philthehuman <philippec94@gmail.com>
+Date:   Thu Nov 12 01:38:27 2020 +1000
+
+    contact page form complete
+
+commit 29c9cbca4606a967274fed55d18f7177f26d1106
+Author: philthehuman <philippec94@gmail.com>
+Date:   Thu Nov 12 01:12:16 2020 +1000
+
+    contact page wip
+
+commit 59bf49f8db1da9d661a50382fbac2cc5e86db0e5
+Author: philthehuman <philippec94@gmail.com>
+Date:   Wed Nov 11 23:21:23 2020 +1000
+
+    portfolio page mobile completed
+
+commit 51426431996122f39aded58bfbc0b625cc69e53f
+Author: philthehuman <philippec94@gmail.com>
+Date:   Fri Nov 6 16:23:22 2020 +1000
+
+    complete home page mobile-only
+
+commit 4f6a51e8d9425e73df2505e2c705e7ebd256c570
+Author: philthehuman <philippec94@gmail.com>
+Date:   Thu Nov 5 10:19:09 2020 +1000
+
+    initial commit

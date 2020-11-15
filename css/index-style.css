@@ -173,6 +173,23 @@ nav a {
   text-align: center;
 }
 
+.content-div p {
+  line-height: 20px;
+  border: solid black 0px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.content-div a {
+  white-space: normal;
+  color: #13ADDE;
+  text-decoration: none;
+  /* no underline */
+}
+
 .content-div-2 {
   border: solid black 0px;
   display: -webkit-box;

@@ -1,6 +1,8 @@
 $primary-color: #dd3f3f;
 $secondary-color: #13ADDE;
 
+
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -111,7 +113,8 @@ nav  {
         margin-top: 20px;
     }
 }
-  
+
+
 
 .content-div {
     line-height: 80%;
@@ -136,6 +139,18 @@ nav  {
         font-size: 5vw;
         font-weight: lighter;
         text-align: center;
+    }
+    p {
+        line-height: 20px;
+        border: solid black 0px;
+        justify-content: left;
+        margin-top: 20px;
+        text-align: left;
+    }
+    a {
+        white-space: normal;
+        color: $secondary-color;
+        text-decoration: none; /* no underline */
     }
 }
 .content-div-2 {

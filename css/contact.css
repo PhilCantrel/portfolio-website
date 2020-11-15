@@ -135,6 +135,39 @@ nav a {
   text-align: center;
 }
 
+.content-div p {
+  text-align: center;
+}
+
+.contact-info {
+  font-family: 'Red Hat Display', sans-serif;
+  max-width: 100%;
+  width: 100%;
+  padding-top: 3px;
+  border-bottom: solid black 1px;
+  line-height: 80%;
+  font-size: 18px;
+  border: none;
+  padding: none;
+}
+
+.contact-info h1 {
+  font-weight: lighter;
+  font-size: 9.5vw;
+  text-align: center;
+}
+
+.contact-info h3 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 5vw;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.contact-info p {
+  text-align: center;
+}
+
 .content-div-bottom {
   font-family: 'Red Hat Display', sans-serif;
   max-width: 100%;
@@ -192,6 +225,10 @@ nav a {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 5vw;
   font-weight: lighter;
+  text-align: center;
+}
+
+.social-div a {
   text-align: center;
 }
 

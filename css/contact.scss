@@ -116,6 +116,18 @@ nav  {
 
 .content-div {
     @include content();
+    p {
+        text-align: center;
+    }
+}
+
+.contact-info {
+    @include content();
+    border: none;
+    padding: none;
+    p {
+        text-align: center;
+    }
 }
 
 .content-div-bottom {
@@ -137,6 +149,9 @@ nav  {
     border-bottom: none;
     margin-top: 20px;
     padding-bottom: 8px;
+    a {
+        text-align: center;
+    }
 }
 .social-div-title{
     display: flex;
